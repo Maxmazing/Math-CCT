@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 50%;     
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  background-color: black;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.header{
+    font-size: larger;
+    color: black;
+    text-anchor: middle;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap; 
+}
+
+.image-row img {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+}
+
+.image-row iframe {
+  width: 500px;
+  max-width: 90%;
+  height: 500px;
+  max-height: 70vh;
+  border-radius: 6px;
+}
+
+.Description{
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+}
